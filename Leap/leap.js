@@ -6,13 +6,13 @@
 var Year = function(year) {
 
     //Make Year into an object containing the init argument as it's 'number' key value
-    Year = {'number':year};
+    this.number = year;
 
 };
 
 Year.prototype.isLeap = function() {
 
-     var year = Year.number;
+     var year = this.number;
 
      /*
      The Gregorian calendar has a leap year on every year that is evenly divisible by 4
