@@ -18,11 +18,4 @@ var listener = function (request, response) {
 
 http.createServer(listener).listen(1337);
 
-// var HelloWorld = require('./hello-world');
-//
-// var input = prompt("What's your name?");
-//
-// var response = HelloWorld(input);
-//
-// console.log(response);
 
