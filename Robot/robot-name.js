@@ -2,7 +2,6 @@
  * Created by olivier on 16/02/2017.
  */
 
-
 let robotManagerInstance = null;
 
 class RobotManager {
@@ -56,8 +55,6 @@ class RobotManager {
     }
 
 }
-
-
 
 class Robot {
 
